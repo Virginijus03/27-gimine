@@ -1,4 +1,4 @@
-const Gimine = require('./Gimine.js');
+const Gimine = require('./Gimine');
 
 const bajorai = new Gimine();
 
@@ -9,30 +9,30 @@ bajorai.giminesMedis();
 // 1. Augustas gime 2000 metais ir nera vedes.
 // 2. Barbora gime 1998 metais ir nera vedes.
 
-bajorai.zmogausInformacija(0);
+//bajorai.zmogausInformacija(0);
 // {name: 'Augustas', year: 2000, married: false}
 
-bajorai.zmogausInformacija(1);
+//bajorai.zmogausInformacija(1);
 // {name: 'Barbora', year: 1998, married: false}
 
-bajorai.vestuves(1);
+//bajorai.vestuves(1);
 
-bajorai.giminesMedis();
+//bajorai.giminesMedis();
 // 1. Augustas gime 2000 metais ir nera vedes.
 // 2. Barbora gime 1998 metais ir yra vedes.
 
-bajorai.vestuves(0);
+//bajorai.vestuves(0);
 
-bajorai.giminesMedis();
+//bajorai.giminesMedis();
 // 1. Augustas gime 2000 metais ir yra vedes.
 // 2. Barbora gime 1998 metais ir yra vedes.
 
-bajorai.mire(1);
+//bajorai.mire(1);
 
-bajorai.giminesMedis();
+//bajorai.giminesMedis();
 // 1. Augustas gime 2000 metais ir yra vedes.
 
-bajorai.skyrybos(0);
+//bajorai.skyrybos(0);
 
-bajorai.giminesMedis();
+//bajorai.giminesMedis();
 // 1. Augustas gime 2000 metais ir nera vedes.
